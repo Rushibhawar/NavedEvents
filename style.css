@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+html{
+    font-family: 'DM Sans', sans-serif;
+}
+body {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('dance.jpg') center no-repeat fixed ;
+    background-size: cover;
+    color:#444;
+}
+.primary-background{
+    background-color: black !important;
+    /* background-color: #88ED24 !important; */
+}
+.btn-background{
+    background-color: #88ED24 !important;
+}
+.navbar-brand img{
+    height: 30px;
+    width: 80px;
+    /* background: transparent; */
+}
+.color-text{
+    color: black !important;
+    /* color: white !important; */
+}
+.nav-effect:hover{
+    background-color: #88ED24 !important;
+    color: black !important;
+    padding-left: 10px;
+    border-radius: 5px;
+    animation-name: nav-hover;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes nav-hover {
+    0% {
+        color: black !important;
+    }
+    50% {
+        background-color: #88ED24 !important;
+        color: black !important;
+    }
+    100% {
+        background-color: #88ED24 !important;
+        color: black !important;
+    }
+}
+.jumbotron{
+    color: white;
+    background: transparent;
+}
+section {
+    font-family: 'DM Sans', sans-serif;
+	padding-top:10px;  
+    padding-bottom:10px;
+    min-height:100%;
+    min-height:calc(100% - 0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+#section2 {
+	background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+#section3 {
+	background-color: rgba(0,0,0,0.4);
+	color:#fff;
+}
+#section3 ul {
+    list-style-image: linear-gradient(to left bottom, rgb(1, 67, 3), rgb(0, 255, 47));
+}
+#section4{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    list-style-image: linear-gradient(to left bottom, rgb(1, 67, 3), rgb(0, 255, 47));
+}
+#section5 {
+	background-color: rgba(0,0,0,0.4);
+	color:#fff;
+}
+.textcolor{
+    color: #88ED24 !important;
+}
+#section6 {
+	background-color: rgba(0,0,0,0.9);
+}
+h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+}
